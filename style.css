@@ -1,1 +1,11 @@
-
+body{
+    background-color: rgb(238, 195, 252);
+}
+header{
+    background-color: antiquewhite;
+color:azure
+}
+section{
+    background-color: bisque
+    color( green)
+}
