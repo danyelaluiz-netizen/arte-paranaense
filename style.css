@@ -71,3 +71,14 @@ card {
     border-left: 6px solid #555555;
     border-radius:10px
 }
+button{
+    background-color:#3ca5a0;
+    color:#f0f3c0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#e0dc54;
+}
