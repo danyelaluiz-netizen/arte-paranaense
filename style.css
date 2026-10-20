@@ -1,9 +1,37 @@
-body {
-    background-color: #2A5800;
-    color: #000000;
+:root{
+    --cor-fundo: rgb(120, 226, 129);
+    --cor-texto: rgb(0, 0, 0);
+    --cor-principal: rgb(193, 226, 150);
+    --cor-segundaria: rgb(53, 230, 121);
+    --cor-hover: rgb(55, 107, 39);
+    --cor-superficie: white;
+    --cor-card: rgb(24, 134, 73);
+    --cor-legenda: rgb(189, 185, 185);
+    --cor-clara:rgb(160, 163, 162);
+    --cor-rodape:rgb(63, 134, 116);
+    }
+
+     body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
+
+header {
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
+    text-align: center;
+    padding: 30px;
+
+}
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        color
+    }
+
 
 header {
     background-color: #75e054;
@@ -31,9 +59,9 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: #549b4d;
+    background-color:var(--cor-segundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -41,7 +69,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #7dfff8;
+    background-color: var(--cor-hover);
 }
 
 main {
